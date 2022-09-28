@@ -27,6 +27,9 @@
 		B6A1E01D28E47FDE000B3208 /* GridExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A1E01C28E47FDE000B3208 /* GridExample.swift */; };
 		B6A1E01F28E48059000B3208 /* SafeAreaExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A1E01E28E48059000B3208 /* SafeAreaExample.swift */; };
 		B6A1E02128E4809C000B3208 /* ButtonsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A1E02028E4809C000B3208 /* ButtonsExample.swift */; };
+		B6A1E02428E4810B000B3208 /* StateExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A1E02328E4810B000B3208 /* StateExample.swift */; };
+		B6A1E02628E48189000B3208 /* ExtractedVar&FuncExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A1E02528E48189000B3208 /* ExtractedVar&FuncExample.swift */; };
+		B6A1E02828E482A3000B3208 /* ExtractSubviewsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A1E02728E482A3000B3208 /* ExtractSubviewsExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +54,9 @@
 		B6A1E01C28E47FDE000B3208 /* GridExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridExample.swift; sourceTree = "<group>"; };
 		B6A1E01E28E48059000B3208 /* SafeAreaExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaExample.swift; sourceTree = "<group>"; };
 		B6A1E02028E4809C000B3208 /* ButtonsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsExample.swift; sourceTree = "<group>"; };
+		B6A1E02328E4810B000B3208 /* StateExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateExample.swift; sourceTree = "<group>"; };
+		B6A1E02528E48189000B3208 /* ExtractedVar&FuncExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ExtractedVar&FuncExample.swift"; sourceTree = "<group>"; };
+		B6A1E02728E482A3000B3208 /* ExtractSubviewsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractSubviewsExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,8 +98,11 @@
 				B6A1E01228E0415F000B3208 /* StacksExample.swift */,
 				B6A1E01028E040F7000B3208 /* Background&OverlayExample.swift */,
 				B6A1E01428E041CB000B3208 /* Padding&SpacerExample.swift */,
+				B6A1E02528E48189000B3208 /* ExtractedVar&FuncExample.swift */,
+				B6A1E02728E482A3000B3208 /* ExtractSubviewsExample.swift */,
 				B678A16F28E035E1002EEAA6 /* ShapesExample.swift */,
 				B6A1E01628E04251000B3208 /* InitializerExample.swift */,
+				B6A1E02328E4810B000B3208 /* StateExample.swift */,
 				B6A1E02028E4809C000B3208 /* ButtonsExample.swift */,
 				B6A1E01A28E47F56000B3208 /* ScrollViewExample.swift */,
 				B6A1E01828E47ECD000B3208 /* ForEachExample.swift */,
@@ -198,7 +207,10 @@
 				B6A1E00B28E03EAB000B3208 /* IconsExample.swift in Sources */,
 				B6A1E01B28E47F56000B3208 /* ScrollViewExample.swift in Sources */,
 				B6A1E00F28E040A2000B3208 /* FrameExample.swift in Sources */,
+				B6A1E02628E48189000B3208 /* ExtractedVar&FuncExample.swift in Sources */,
 				B678A16E28E035C7002EEAA6 /* TextExample.swift in Sources */,
+				B6A1E02428E4810B000B3208 /* StateExample.swift in Sources */,
+				B6A1E02828E482A3000B3208 /* ExtractSubviewsExample.swift in Sources */,
 				B6A1E01928E47ECD000B3208 /* ForEachExample.swift in Sources */,
 				B678A17028E035E1002EEAA6 /* ShapesExample.swift in Sources */,
 				B6A1E01D28E47FDE000B3208 /* GridExample.swift in Sources */,
