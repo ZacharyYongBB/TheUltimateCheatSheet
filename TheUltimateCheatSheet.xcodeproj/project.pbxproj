@@ -22,6 +22,11 @@
 		B6A1E01328E0415F000B3208 /* StacksExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A1E01228E0415F000B3208 /* StacksExample.swift */; };
 		B6A1E01528E041CB000B3208 /* Padding&SpacerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A1E01428E041CB000B3208 /* Padding&SpacerExample.swift */; };
 		B6A1E01728E04251000B3208 /* InitializerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A1E01628E04251000B3208 /* InitializerExample.swift */; };
+		B6A1E01928E47ECD000B3208 /* ForEachExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A1E01828E47ECD000B3208 /* ForEachExample.swift */; };
+		B6A1E01B28E47F56000B3208 /* ScrollViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A1E01A28E47F56000B3208 /* ScrollViewExample.swift */; };
+		B6A1E01D28E47FDE000B3208 /* GridExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A1E01C28E47FDE000B3208 /* GridExample.swift */; };
+		B6A1E01F28E48059000B3208 /* SafeAreaExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A1E01E28E48059000B3208 /* SafeAreaExample.swift */; };
+		B6A1E02128E4809C000B3208 /* ButtonsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A1E02028E4809C000B3208 /* ButtonsExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +46,11 @@
 		B6A1E01228E0415F000B3208 /* StacksExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksExample.swift; sourceTree = "<group>"; };
 		B6A1E01428E041CB000B3208 /* Padding&SpacerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Padding&SpacerExample.swift"; sourceTree = "<group>"; };
 		B6A1E01628E04251000B3208 /* InitializerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializerExample.swift; sourceTree = "<group>"; };
+		B6A1E01828E47ECD000B3208 /* ForEachExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachExample.swift; sourceTree = "<group>"; };
+		B6A1E01A28E47F56000B3208 /* ScrollViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewExample.swift; sourceTree = "<group>"; };
+		B6A1E01C28E47FDE000B3208 /* GridExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridExample.swift; sourceTree = "<group>"; };
+		B6A1E01E28E48059000B3208 /* SafeAreaExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaExample.swift; sourceTree = "<group>"; };
+		B6A1E02028E4809C000B3208 /* ButtonsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,12 +86,17 @@
 				B678A15F28E030BF002EEAA6 /* TheUltimateCheatSheetApp.swift */,
 				B678A16128E030BF002EEAA6 /* ContentView.swift */,
 				B678A16D28E035C7002EEAA6 /* TextExample.swift */,
+				B6A1E01C28E47FDE000B3208 /* GridExample.swift */,
+				B6A1E01E28E48059000B3208 /* SafeAreaExample.swift */,
 				B6A1E00828E03DD0000B3208 /* GratientsExample.swift */,
 				B6A1E01228E0415F000B3208 /* StacksExample.swift */,
 				B6A1E01028E040F7000B3208 /* Background&OverlayExample.swift */,
 				B6A1E01428E041CB000B3208 /* Padding&SpacerExample.swift */,
 				B678A16F28E035E1002EEAA6 /* ShapesExample.swift */,
 				B6A1E01628E04251000B3208 /* InitializerExample.swift */,
+				B6A1E02028E4809C000B3208 /* ButtonsExample.swift */,
+				B6A1E01A28E47F56000B3208 /* ScrollViewExample.swift */,
+				B6A1E01828E47ECD000B3208 /* ForEachExample.swift */,
 				B6A1E00A28E03EAB000B3208 /* IconsExample.swift */,
 				B6A1E00E28E040A2000B3208 /* FrameExample.swift */,
 				B6A1E00C28E04008000B3208 /* ImageExamples.swift */,
@@ -171,6 +186,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6A1E00D28E04008000B3208 /* ImageExamples.swift in Sources */,
+				B6A1E01F28E48059000B3208 /* SafeAreaExample.swift in Sources */,
+				B6A1E02128E4809C000B3208 /* ButtonsExample.swift in Sources */,
 				B6A1E00928E03DD0000B3208 /* GratientsExample.swift in Sources */,
 				B6A1E00728E039A1000B3208 /* ColorsExample.swift in Sources */,
 				B678A16228E030BF002EEAA6 /* ContentView.swift in Sources */,
@@ -179,9 +196,12 @@
 				B6A1E01128E040F7000B3208 /* Background&OverlayExample.swift in Sources */,
 				B6A1E01728E04251000B3208 /* InitializerExample.swift in Sources */,
 				B6A1E00B28E03EAB000B3208 /* IconsExample.swift in Sources */,
+				B6A1E01B28E47F56000B3208 /* ScrollViewExample.swift in Sources */,
 				B6A1E00F28E040A2000B3208 /* FrameExample.swift in Sources */,
 				B678A16E28E035C7002EEAA6 /* TextExample.swift in Sources */,
+				B6A1E01928E47ECD000B3208 /* ForEachExample.swift in Sources */,
 				B678A17028E035E1002EEAA6 /* ShapesExample.swift in Sources */,
+				B6A1E01D28E47FDE000B3208 /* GridExample.swift in Sources */,
 				B678A16028E030BF002EEAA6 /* TheUltimateCheatSheetApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
