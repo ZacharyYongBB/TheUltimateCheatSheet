@@ -21,7 +21,8 @@ struct TransitionExample: View {
                 Spacer()
             }
             if showView {
-                RoundedRectangle(cornerRadius: 30)
+                Image(systemName: "heart")
+                    .resizable()
                     .frame(height: UIScreen.main.bounds.height/2)
                     //.transition(.move(edge: .bottom))
                     .transition(AnyTransition.scale.animation(.easeInOut))
