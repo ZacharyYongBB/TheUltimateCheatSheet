@@ -16,9 +16,9 @@ struct ForEachExample: View {
     
     var body: some View {
         VStack {
-            ForEach(data.indices) { index in
-                Text("\(data[index]): \(index)")
-            }
+//            ForEach(data.indices) { index in
+//                Text("\(data[index]): \(index)")
+//            }
             ForEach(0..<5) { index in
                 Circle()
                     .frame(height: 50)
