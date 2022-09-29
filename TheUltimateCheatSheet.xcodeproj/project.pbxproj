@@ -38,6 +38,7 @@
 		B6A1E03428E57781000B3208 /* TransitionExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A1E03328E57781000B3208 /* TransitionExample.swift */; };
 		B6A1E03628E5A052000B3208 /* SheetsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A1E03528E5A052000B3208 /* SheetsExample.swift */; };
 		B6A1E03828E5A676000B3208 /* PopoverExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A1E03728E5A676000B3208 /* PopoverExample.swift */; };
+		B6A1E03A28E5B56C000B3208 /* NavigationViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A1E03928E5B56C000B3208 /* NavigationViewExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,7 @@
 		B6A1E03328E57781000B3208 /* TransitionExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionExample.swift; sourceTree = "<group>"; };
 		B6A1E03528E5A052000B3208 /* SheetsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetsExample.swift; sourceTree = "<group>"; };
 		B6A1E03728E5A676000B3208 /* PopoverExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverExample.swift; sourceTree = "<group>"; };
+		B6A1E03928E5B56C000B3208 /* NavigationViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				B6A1E03128E573FA000B3208 /* AnimationTimingExample.swift */,
 				B6A1E03328E57781000B3208 /* TransitionExample.swift */,
 				B6A1E02728E482A3000B3208 /* ExtractSubviewsExample.swift */,
+				B6A1E03928E5B56C000B3208 /* NavigationViewExample.swift */,
 				B678A16F28E035E1002EEAA6 /* ShapesExample.swift */,
 				B6A1E02F28E56EC5000B3208 /* AnimationExample.swift */,
 				B6A1E03728E5A676000B3208 /* PopoverExample.swift */,
@@ -223,6 +226,7 @@
 				B6A1E03628E5A052000B3208 /* SheetsExample.swift in Sources */,
 				B6A1E01F28E48059000B3208 /* SafeAreaExample.swift in Sources */,
 				B6A1E02128E4809C000B3208 /* ButtonsExample.swift in Sources */,
+				B6A1E03A28E5B56C000B3208 /* NavigationViewExample.swift in Sources */,
 				B6A1E00928E03DD0000B3208 /* GratientsExample.swift in Sources */,
 				B6A1E03428E57781000B3208 /* TransitionExample.swift in Sources */,
 				B6A1E00728E039A1000B3208 /* ColorsExample.swift in Sources */,
