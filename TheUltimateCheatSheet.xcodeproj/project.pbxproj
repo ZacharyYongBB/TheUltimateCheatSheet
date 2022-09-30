@@ -45,6 +45,8 @@
 		B6A1E04628E6D092000B3208 /* ContextMenuExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A1E04528E6D092000B3208 /* ContextMenuExample.swift */; };
 		B6A1E04828E6D357000B3208 /* TextfieldExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A1E04728E6D357000B3208 /* TextfieldExample.swift */; };
 		B6A1E04A28E6D8AD000B3208 /* TextEditorExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A1E04928E6D8AD000B3208 /* TextEditorExample.swift */; };
+		B6A1E04C28E6E08F000B3208 /* ToggleExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A1E04B28E6E08F000B3208 /* ToggleExample.swift */; };
+		B6A1E04E28E6E20A000B3208 /* PickerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A1E04D28E6E20A000B3208 /* PickerExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -87,6 +89,8 @@
 		B6A1E04528E6D092000B3208 /* ContextMenuExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuExample.swift; sourceTree = "<group>"; };
 		B6A1E04728E6D357000B3208 /* TextfieldExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextfieldExample.swift; sourceTree = "<group>"; };
 		B6A1E04928E6D8AD000B3208 /* TextEditorExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorExample.swift; sourceTree = "<group>"; };
+		B6A1E04B28E6E08F000B3208 /* ToggleExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleExample.swift; sourceTree = "<group>"; };
+		B6A1E04D28E6E20A000B3208 /* PickerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,11 +133,13 @@
 				B6A1E01028E040F7000B3208 /* Background&OverlayExample.swift */,
 				B6A1E01428E041CB000B3208 /* Padding&SpacerExample.swift */,
 				B6A1E02B28E56724000B3208 /* ConditionalExample.swift */,
+				B6A1E04B28E6E08F000B3208 /* ToggleExample.swift */,
 				B6A1E02528E48189000B3208 /* ExtractedVar&FuncExample.swift */,
 				B6A1E02D28E56BF0000B3208 /* TernaryExample.swift */,
 				B6A1E04528E6D092000B3208 /* ContextMenuExample.swift */,
 				B6A1E04728E6D357000B3208 /* TextfieldExample.swift */,
 				B6A1E04328E6CAEC000B3208 /* ActionSheetExample.swift */,
+				B6A1E04D28E6E20A000B3208 /* PickerExample.swift */,
 				B6A1E03F28E6913F000B3208 /* AlertExample.swift */,
 				B6A1E03128E573FA000B3208 /* AnimationTimingExample.swift */,
 				B6A1E03328E57781000B3208 /* TransitionExample.swift */,
@@ -257,6 +263,7 @@
 				B6A1E02E28E56BF0000B3208 /* TernaryExample.swift in Sources */,
 				B6A1E01528E041CB000B3208 /* Padding&SpacerExample.swift in Sources */,
 				B6A1E04628E6D092000B3208 /* ContextMenuExample.swift in Sources */,
+				B6A1E04E28E6E20A000B3208 /* PickerExample.swift in Sources */,
 				B6A1E01128E040F7000B3208 /* Background&OverlayExample.swift in Sources */,
 				B6A1E01728E04251000B3208 /* InitializerExample.swift in Sources */,
 				B6A1E03028E56EC5000B3208 /* AnimationExample.swift in Sources */,
@@ -266,6 +273,7 @@
 				B6A1E00F28E040A2000B3208 /* FrameExample.swift in Sources */,
 				B6A1E02628E48189000B3208 /* ExtractedVar&FuncExample.swift in Sources */,
 				B6A1E02A28E56370000B3208 /* BindingExample.swift in Sources */,
+				B6A1E04C28E6E08F000B3208 /* ToggleExample.swift in Sources */,
 				B678A16E28E035C7002EEAA6 /* TextExample.swift in Sources */,
 				B6A1E03228E573FA000B3208 /* AnimationTimingExample.swift in Sources */,
 				B6A1E02428E4810B000B3208 /* StateExample.swift in Sources */,
