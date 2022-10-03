@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		B60E1B7B28E942EC008C3617 /* SliderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60E1B7A28E942EC008C3617 /* SliderExample.swift */; };
 		B654CF5528EAC30300D8A3E5 /* TabViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B654CF5428EAC30300D8A3E5 /* TabViewExample.swift */; };
+		B65E8A2D28EB0CB90065E545 /* DarkModeExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65E8A2C28EB0CB90065E545 /* DarkModeExample.swift */; };
+		B65E8A2F28EB105E0065E545 /* DocumentationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65E8A2E28EB105E0065E545 /* DocumentationExample.swift */; };
+		B65E8A3128EB189C0065E545 /* OnAppearExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65E8A3028EB189C0065E545 /* OnAppearExample.swift */; };
 		B678A16028E030BF002EEAA6 /* TheUltimateCheatSheetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B678A15F28E030BF002EEAA6 /* TheUltimateCheatSheetApp.swift */; };
 		B678A16228E030BF002EEAA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B678A16128E030BF002EEAA6 /* ContentView.swift */; };
 		B678A16428E030C0002EEAA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B678A16328E030C0002EEAA6 /* Assets.xcassets */; };
@@ -57,6 +60,9 @@
 /* Begin PBXFileReference section */
 		B60E1B7A28E942EC008C3617 /* SliderExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderExample.swift; sourceTree = "<group>"; };
 		B654CF5428EAC30300D8A3E5 /* TabViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewExample.swift; sourceTree = "<group>"; };
+		B65E8A2C28EB0CB90065E545 /* DarkModeExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeExample.swift; sourceTree = "<group>"; };
+		B65E8A2E28EB105E0065E545 /* DocumentationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentationExample.swift; sourceTree = "<group>"; };
+		B65E8A3028EB189C0065E545 /* OnAppearExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearExample.swift; sourceTree = "<group>"; };
 		B678A15C28E030BF002EEAA6 /* TheUltimateCheatSheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheUltimateCheatSheet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B678A15F28E030BF002EEAA6 /* TheUltimateCheatSheetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheUltimateCheatSheetApp.swift; sourceTree = "<group>"; };
 		B678A16128E030BF002EEAA6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -144,10 +150,13 @@
 				B6A1E01428E041CB000B3208 /* Padding&SpacerExample.swift */,
 				B654CF5428EAC30300D8A3E5 /* TabViewExample.swift */,
 				B6A1E02B28E56724000B3208 /* ConditionalExample.swift */,
+				B65E8A2E28EB105E0065E545 /* DocumentationExample.swift */,
 				B6A1E05328E71E0E000B3208 /* StepperExample.swift */,
+				B65E8A2C28EB0CB90065E545 /* DarkModeExample.swift */,
 				B6A1E04B28E6E08F000B3208 /* ToggleExample.swift */,
 				B6A1E02528E48189000B3208 /* ExtractedVar&FuncExample.swift */,
 				B60E1B7A28E942EC008C3617 /* SliderExample.swift */,
+				B65E8A3028EB189C0065E545 /* OnAppearExample.swift */,
 				B6A1E02D28E56BF0000B3208 /* TernaryExample.swift */,
 				B6A1E04528E6D092000B3208 /* ContextMenuExample.swift */,
 				B6A1E04728E6D357000B3208 /* TextfieldExample.swift */,
@@ -271,9 +280,12 @@
 				B6A1E03428E57781000B3208 /* TransitionExample.swift in Sources */,
 				B6A1E04428E6CAEC000B3208 /* ActionSheetExample.swift in Sources */,
 				B6A1E00728E039A1000B3208 /* ColorsExample.swift in Sources */,
+				B65E8A2D28EB0CB90065E545 /* DarkModeExample.swift in Sources */,
 				B6A1E05428E71E0E000B3208 /* StepperExample.swift in Sources */,
 				B6A1E03C28E5C1B4000B3208 /* ListExample.swift in Sources */,
+				B65E8A2F28EB105E0065E545 /* DocumentationExample.swift in Sources */,
 				B678A16228E030BF002EEAA6 /* ContentView.swift in Sources */,
+				B65E8A3128EB189C0065E545 /* OnAppearExample.swift in Sources */,
 				B6A1E01328E0415F000B3208 /* StacksExample.swift in Sources */,
 				B60E1B7B28E942EC008C3617 /* SliderExample.swift in Sources */,
 				B6A1E04A28E6D8AD000B3208 /* TextEditorExample.swift in Sources */,
