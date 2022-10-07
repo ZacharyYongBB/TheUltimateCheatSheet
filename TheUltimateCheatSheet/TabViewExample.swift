@@ -14,46 +14,51 @@ struct TabViewExample: View {
     let icons: [String] = ["heart.fill", "globe", "house.fill", "person.fill"]
     
     var body: some View {
-        TabView {
-            ForEach(icons, id: \.self) { icon in
-                Image(systemName: icon)
-                    .resizable()
-                    .scaledToFit()
-                    .padding(30)
-            }
+        VStack {
+            TabView {
+                ForEach(icons, id: \.self) { icon in
+                    Image(systemName: icon)
+                        .resizable()
+                        .scaledToFit()
+                        .padding(30)
+                }
 
-        }
-        .background(
-            RadialGradient(gradient: Gradient(colors: [Color.red, Color.blue]), center: .center, startRadius: 5, endRadius: 300)
-        )
-        .frame(height: 300)
+            }
+            .background(
+                RadialGradient(gradient: Gradient(colors: [Color.red, Color.blue]), center: .center, startRadius: 5, endRadius: 300)
+            )
+            .frame(height: 300)
         .tabViewStyle(PageTabViewStyle())
-//        TabView (selection: $selectedTab) {
-//
-//            HomeView(selectedTab: $selectedTab)
-//                .tabItem {
-//                    Image(systemName: "house.fill")
-//                    Text("Home")
-//                }
-//                .tag(0)
-//
-//
-//            Text("Browse Tab")
-//                .tabItem {
-//                    Image(systemName: "globe")
-//                    Text("Browse")
-//                }
-//                .tag(1)
-//
-//
-//            Text("Profile Tab")
-//                .tabItem {
-//                    Image(systemName: "person.fill")
-//                    Text("Profile")
-//                }
-//                .tag(2)
-//        }
-//        .accentColor(.red)
+            
+            
+                    TabView (selection: $selectedTab) {
+            
+                        HomeView(selectedTab: $selectedTab)
+                            .tabItem {
+                                Image(systemName: "house.fill")
+                                Text("Home")
+                            }
+                            .tag(0)
+            
+            
+                        Text("Browse Tab")
+                            .tabItem {
+                                Image(systemName: "globe")
+                                Text("Browse")
+                            }
+                            .tag(1)
+            
+            
+                        Text("Profile Tab")
+                            .tabItem {
+                                Image(systemName: "person.fill")
+                                Text("Profile")
+                            }
+                            .tag(2)
+                    }
+                    .accentColor(.red)
+            
+        }
     }
 }
 
