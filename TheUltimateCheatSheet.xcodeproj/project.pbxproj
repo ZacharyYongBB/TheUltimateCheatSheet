@@ -13,6 +13,9 @@
 		B618326628ED8CF1003AFBAA /* ModelExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B618326528ED8CF1003AFBAA /* ModelExample.swift */; };
 		B618326828ED995B003AFBAA /* ViewModelExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B618326728ED995B003AFBAA /* ViewModelExample.swift */; };
 		B641D36528EFD69400DA6EF1 /* AppStorageExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B641D36428EFD69400DA6EF1 /* AppStorageExample.swift */; };
+		B641D36828EFD9FB00DA6EF1 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B641D36728EFD9FB00DA6EF1 /* IntroView.swift */; };
+		B641D36A28EFDB7C00DA6EF1 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B641D36928EFDB7C00DA6EF1 /* OnboardingView.swift */; };
+		B641D36C28F0109000DA6EF1 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B641D36B28F0109000DA6EF1 /* ProfileView.swift */; };
 		B654CF5528EAC30300D8A3E5 /* TabViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B654CF5428EAC30300D8A3E5 /* TabViewExample.swift */; };
 		B65E8A2D28EB0CB90065E545 /* DarkModeExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65E8A2C28EB0CB90065E545 /* DarkModeExample.swift */; };
 		B65E8A2F28EB105E0065E545 /* DocumentationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65E8A2E28EB105E0065E545 /* DocumentationExample.swift */; };
@@ -70,6 +73,9 @@
 		B618326528ED8CF1003AFBAA /* ModelExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelExample.swift; sourceTree = "<group>"; };
 		B618326728ED995B003AFBAA /* ViewModelExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelExample.swift; sourceTree = "<group>"; };
 		B641D36428EFD69400DA6EF1 /* AppStorageExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageExample.swift; sourceTree = "<group>"; };
+		B641D36728EFD9FB00DA6EF1 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
+		B641D36928EFDB7C00DA6EF1 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		B641D36B28F0109000DA6EF1 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		B654CF5428EAC30300D8A3E5 /* TabViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewExample.swift; sourceTree = "<group>"; };
 		B65E8A2C28EB0CB90065E545 /* DarkModeExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeExample.swift; sourceTree = "<group>"; };
 		B65E8A2E28EB105E0065E545 /* DocumentationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentationExample.swift; sourceTree = "<group>"; };
@@ -132,6 +138,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B641D36628EFD9C300DA6EF1 /* OnboardingViews */ = {
+			isa = PBXGroup;
+			children = (
+				B641D36728EFD9FB00DA6EF1 /* IntroView.swift */,
+				B641D36B28F0109000DA6EF1 /* ProfileView.swift */,
+				B641D36928EFDB7C00DA6EF1 /* OnboardingView.swift */,
+			);
+			path = OnboardingViews;
+			sourceTree = "<group>";
+		};
 		B678A15328E030BF002EEAA6 = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +176,7 @@
 				B6A1E00828E03DD0000B3208 /* GradientsExample.swift */,
 				B6A1E01228E0415F000B3208 /* StacksExample.swift */,
 				B6A1E01028E040F7000B3208 /* Background&OverlayExample.swift */,
+				B641D36628EFD9C300DA6EF1 /* OnboardingViews */,
 				B6A1E01428E041CB000B3208 /* Padding&SpacerExample.swift */,
 				B618326728ED995B003AFBAA /* ViewModelExample.swift */,
 				B654CF5428EAC30300D8A3E5 /* TabViewExample.swift */,
@@ -326,14 +343,17 @@
 				B6A1E05028E71759000B3208 /* ColorPickerExample.swift in Sources */,
 				B618326428ED8999003AFBAA /* TapGestureExample.swift in Sources */,
 				B6A1E00F28E040A2000B3208 /* FrameExample.swift in Sources */,
+				B641D36A28EFDB7C00DA6EF1 /* OnboardingView.swift in Sources */,
 				B6A1E02628E48189000B3208 /* ExtractedVar&FuncExample.swift in Sources */,
 				B6A1E02A28E56370000B3208 /* BindingExample.swift in Sources */,
+				B641D36C28F0109000DA6EF1 /* ProfileView.swift in Sources */,
 				B618326628ED8CF1003AFBAA /* ModelExample.swift in Sources */,
 				B6A1E04C28E6E08F000B3208 /* ToggleExample.swift in Sources */,
 				B678A16E28E035C7002EEAA6 /* TextExample.swift in Sources */,
 				B6A1E03228E573FA000B3208 /* AnimationTimingExample.swift in Sources */,
 				B6A1E02428E4810B000B3208 /* StateExample.swift in Sources */,
 				B6A1E02828E482A3000B3208 /* ExtractSubviewsExample.swift in Sources */,
+				B641D36828EFD9FB00DA6EF1 /* IntroView.swift in Sources */,
 				B6A1E01928E47ECD000B3208 /* ForEachExample.swift in Sources */,
 				B678A17028E035E1002EEAA6 /* ShapesExample.swift in Sources */,
 				B6A1E01D28E47FDE000B3208 /* GridExample.swift in Sources */,
