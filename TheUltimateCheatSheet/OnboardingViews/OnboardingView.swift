@@ -88,7 +88,9 @@ extension OnboardingView {
     
     private var backButton: some View {
         Button {
-            onboardingState -= 1
+            withAnimation(.spring()){
+                onboardingState -= 1
+            }
         } label: {
             Text("Back")
                 .font(.headline)
