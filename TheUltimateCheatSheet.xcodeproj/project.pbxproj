@@ -12,6 +12,7 @@
 		B618326428ED8999003AFBAA /* TapGestureExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B618326328ED8999003AFBAA /* TapGestureExample.swift */; };
 		B618326628ED8CF1003AFBAA /* ModelExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B618326528ED8CF1003AFBAA /* ModelExample.swift */; };
 		B618326828ED995B003AFBAA /* ViewModelExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B618326728ED995B003AFBAA /* ViewModelExample.swift */; };
+		B641D36528EFD69400DA6EF1 /* AppStorageExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B641D36428EFD69400DA6EF1 /* AppStorageExample.swift */; };
 		B654CF5528EAC30300D8A3E5 /* TabViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B654CF5428EAC30300D8A3E5 /* TabViewExample.swift */; };
 		B65E8A2D28EB0CB90065E545 /* DarkModeExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65E8A2C28EB0CB90065E545 /* DarkModeExample.swift */; };
 		B65E8A2F28EB105E0065E545 /* DocumentationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65E8A2E28EB105E0065E545 /* DocumentationExample.swift */; };
@@ -68,6 +69,7 @@
 		B618326328ED8999003AFBAA /* TapGestureExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureExample.swift; sourceTree = "<group>"; };
 		B618326528ED8CF1003AFBAA /* ModelExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelExample.swift; sourceTree = "<group>"; };
 		B618326728ED995B003AFBAA /* ViewModelExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelExample.swift; sourceTree = "<group>"; };
+		B641D36428EFD69400DA6EF1 /* AppStorageExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageExample.swift; sourceTree = "<group>"; };
 		B654CF5428EAC30300D8A3E5 /* TabViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewExample.swift; sourceTree = "<group>"; };
 		B65E8A2C28EB0CB90065E545 /* DarkModeExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeExample.swift; sourceTree = "<group>"; };
 		B65E8A2E28EB105E0065E545 /* DocumentationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentationExample.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 				B678A16128E030BF002EEAA6 /* ContentView.swift */,
 				B678A16D28E035C7002EEAA6 /* TextExample.swift */,
 				B6A1E01C28E47FDE000B3208 /* GridExample.swift */,
+				B641D36428EFD69400DA6EF1 /* AppStorageExample.swift */,
 				B6A1E01E28E48059000B3208 /* SafeAreaExample.swift */,
 				B6A1E00828E03DD0000B3208 /* GradientsExample.swift */,
 				B6A1E01228E0415F000B3208 /* StacksExample.swift */,
@@ -312,6 +315,7 @@
 				B6A1E05228E718C9000B3208 /* DatePickerExample.swift in Sources */,
 				B6A1E04E28E6E20A000B3208 /* PickerExample.swift in Sources */,
 				B618326228ED83F6003AFBAA /* IfLetGuardExample.swift in Sources */,
+				B641D36528EFD69400DA6EF1 /* AppStorageExample.swift in Sources */,
 				B6A1E01128E040F7000B3208 /* Background&OverlayExample.swift in Sources */,
 				B6A1E01728E04251000B3208 /* InitializerExample.swift in Sources */,
 				B6A1E03028E56EC5000B3208 /* AnimationExample.swift in Sources */,
